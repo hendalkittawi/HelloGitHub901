@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@finals_schedule.png" />
+         </image>
+      </ImageView>
+      <Label text="Rowdy Quiz" />
+      <Label text="Question Here" />
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" text="True">
+               <padding>
+                  <Insets top="30.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets top="30.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+      </HBox>
+      <Button mnemonicParsing="false" text="Button" />
+      <Label text="Label" />
+   </children>
+</VBox>
